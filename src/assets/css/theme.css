@@ -1,0 +1,23 @@
+:root {
+    --tg-theme-text-color: #000;
+    --tg-theme-section-bg-color: #fff;
+    --tg-theme-stroke-separator: #f0f2f6;
+    --tg-theme-secondary-bg-color: #eff2f6;
+    --tg-theme-button-color: #2b8cee;
+    --tg-theme-button-hover-color: #3f9eff;
+    --tg-theme-button-text-color: #fff;
+    --tg-theme-hint-color: #8a96a3;
+ }
+  
+ @media(prefers-color-scheme: dark) {
+    :root {
+       --tg-theme-text-color: #fff;
+       --tg-theme-section-bg-color: #181818;
+       --tg-theme-stroke-separator: #2f2f2f;
+       --tg-theme-secondary-bg-color: #212121;
+       --tg-theme-button-color: #2b8cee;
+       --tg-theme-button-hover-color: #3f9eff;
+       --tg-theme-button-text-color: #fff;
+       --tg-theme-hint-color: #aaa;
+    }
+ }
